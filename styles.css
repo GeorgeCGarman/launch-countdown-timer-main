@@ -16,7 +16,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+body {
   margin: 0;
 }
 
@@ -43,11 +44,15 @@ h1 {
 
 .hills {
   position: fixed;
-  top: 70vh;
+  top: 75vh;
+  padding: 0;
+  margin: 0;
+  transform: scaleX(1.5);
 }
 
 .stars {
   position: fixed;
+  z-index: -1;
 }
 
 .number h2 {
