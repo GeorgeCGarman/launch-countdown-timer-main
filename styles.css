@@ -1,0 +1,70 @@
+:root {
+    /* Primary */
+    --clr-greyblue: 237 18% 59%;
+    --clr-softred: 345 95% 68%;
+
+    /* Neutral */
+    --clr-white: 0 0% 100%;
+    --clr-desatblue: 236 21% 26%;
+    --clr-darkblue: 235 16% 14%;
+    --clr-darkerblue: 234 17% 12%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+    font-family: "Red Hat Text", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    background-color: hsl( var(--clr-darkerblue));
+}
+
+label {
+    font-size: 14px;
+    color: hsl( var(--clr-greyblue));
+}
+
+h1 {
+    width: 30%;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 32px;
+    color: hsl( var(--clr-white));
+    text-align: center;
+}
+
+.hills {
+  position: fixed;
+  top: 70vh;
+}
+
+.stars {
+  position: fixed;
+}
+
+.number h2 {
+  font-size: 64px;
+  color: hsl( var(--clr-softred));
+  text-align: center;
+}
+
+.number label {
+  text-align: center;
+}
+
+.number {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.countdown {
+  text-align: center;
+}
